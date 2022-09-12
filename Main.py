@@ -2,7 +2,7 @@ from typing import List
 
 def insertionSort(array) -> List[int]:
   # Write your code here
- for i in range(1, len(arry)):
+ for i in range(1, len(array)):
     obj = array[i]
     j = i - 1
     while j >= 0 and obj < array[j]:
